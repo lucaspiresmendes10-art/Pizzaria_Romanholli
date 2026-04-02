@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre - romanholli</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* TOPO */
+header {
+    background: #b11226;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* CONTEÚDO */
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #b11226;
+}
+
+/* FORMULÁRIO */
+form {
+    margin-top: 30px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    background: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>romanholli</h1>
+</header>
+
+<div class="container">
+    <h2>Sobre a nossa pizzaria 🍕</h2>
+    <p>
+        A Romanholli nasceu com o objetivo de trazer pizzas artesanais com sabor autêntico,
+        utilizando ingredientes frescos e de alta qualidade. Nosso compromisso é oferecer
+        a melhor experiência para nossos clientes.
+    </p>
+
+    <h2>Cadastre-se</h2>
+
+    <form>
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Senha" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+</div>
+
+</body>
+</html>
